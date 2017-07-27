@@ -1,0 +1,15 @@
+<md-sidenav-container>
+  <div class="site">
+    <header>
+      <app-header (toggle)="sidenav.toggle()"></app-header>
+    </header>
+    <main>
+    </main>
+    <footer>
+      <app-footer></app-footer>
+    </footer>
+  </div>
+  <md-sidenav #sidenav mode="side">
+    这是侧边栏
+  </md-sidenav>
+</md-sidenav-container>
